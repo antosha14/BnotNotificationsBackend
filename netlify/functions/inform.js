@@ -21,7 +21,7 @@ exports.handler = async (req) => {
           to: token,
           sound: 'default',
           priority: 'high',
-          body: `Your current position is ${newPosition}`,
+          body: `It is your turn to pass border control. Your current position is ${newPosition}`,
         }),
     });
     }
